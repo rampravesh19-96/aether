@@ -1,0 +1,32 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+build/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Logs and caches
+*.log
+.cache/
+.vite/
+.temp/
+
+# Browser QA profiles
+.qa-chrome-profile/
+.qa-firefox-profile/
+
+# Test artifacts
+coverage/
+playwright-report/
+test-results/
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
